@@ -1,0 +1,22 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Generated OT exports (can be very large)
+output/ot_transition_tables/
+
+# Notebook runtime/cache artifacts
+output/jupyter-notebook/tmp/
+output/jupyter-notebook/.ipynb_checkpoints/
+
+# Large local data artifacts
+output/jupyter-notebook/*.h5ad
+output/jupyter-notebook/*.h5mu
+output/jupyter-notebook/*.loom
+output/jupyter-notebook/*.zarr
+output/jupyter-notebook/*.zarr/
+output/jupyter-notebook/*.npy
+output/jupyter-notebook/*.npz
+output/jupyter-notebook/*.pkl
+output/jupyter-notebook/*.pickle
+output/jupyter-notebook/*.parquet
