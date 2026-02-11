@@ -1,0 +1,18 @@
+# Generated OT exports (can be very large)
+ot_transition_tables/
+
+# Notebook runtime/cache artifacts
+jupyter-notebook/tmp/
+jupyter-notebook/.ipynb_checkpoints/
+
+# Large local data artifacts accidentally copied into notebook output
+jupyter-notebook/*.h5ad
+jupyter-notebook/*.h5mu
+jupyter-notebook/*.loom
+jupyter-notebook/*.zarr
+jupyter-notebook/*.zarr/
+jupyter-notebook/*.npy
+jupyter-notebook/*.npz
+jupyter-notebook/*.pkl
+jupyter-notebook/*.pickle
+jupyter-notebook/*.parquet
